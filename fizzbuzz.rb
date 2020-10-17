@@ -2,12 +2,12 @@
 # See README.md for instructions on how to do this
 
 
-def fizzbuzz(number)
- if number % 3 == 0
+def fizzbuzz(n)
+ if n % 3 == 0
     puts 'Fizz'
-  elsif number % 5 == 0
+  elsif n % 5 == 0
     puts 'Buzz'
-  elsif number %3 == 0 && number % 5 == 0
+  elsif n %3 == 0 && n % 5 == 0
     puts 'FizzBuzz'
   else
     puts nil
